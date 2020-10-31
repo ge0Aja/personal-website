@@ -1,4 +1,4 @@
-layout: sidebar
+layout: stacked
 style: light
 
 plugins:
@@ -24,35 +24,48 @@ projects:
   limit: 9
   exclude:
     archived: false
-    forks: true
+    forks: false
     projects:
+      - node-chat
+      - caffe-android-image-recongnition
+      - wastenomore
+      - SignNet
+      - crowdApp
+      - thesis-matlab-code
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: georgi-ajaeiya-712052b9
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-  # twitter: your_username
+  twitter: ge0Aja
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
+  scholar: 6Y0RJiUAAAAJ
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Scala
+    web_url: https://github.com/topics/scala
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/scala/scala.png
 
-  - name: Web design
+  - name: Spark
+    web_url: https://github.com/topics/spark
+    image_url: https://raw.githubusercontent.com/github/explore/6f5025830918df26b37d23b3ffffbc35725fe15f/topics/spark/spark.png
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Tensorflow
+    web_url: https://github.com/topics/tensorflow
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tensorflow/tensorflow.png
+
+  - name: Metasploit
+    web_url: https://www.metasploit.com/
+    image_url: https://www.metasploit.com/includes/images/metasploit-og.png
