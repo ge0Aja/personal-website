@@ -35,6 +35,7 @@ projects:
     # - repo-name
 
 social_media:
+  scholar: 6Y0RJiUAAAAJ
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
@@ -51,7 +52,7 @@ social_media:
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
-  scholar: 6Y0RJiUAAAAJ
+
 
 topics:
   - name: Scala
