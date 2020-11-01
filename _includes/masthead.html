@@ -12,6 +12,18 @@
 
 {% if include.metadata %}
   <div class="f4 mb-6">
+    <div class="{{ metadata_styles }}">
+      {% octicon file height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Resume %}
+      <a href="/resume" target="_blank" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+        Resume
+      </a>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon person height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:About %}
+      <a href="/about" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+        About
+      </a>
+    </div>
     {% if user.name %}
       <div class="{{ metadata_styles }}">
         {% octicon mark-github height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}

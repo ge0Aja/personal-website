@@ -1,4 +1,4 @@
-layout: stacked
+layout: sidebar
 style: light
 
 plugins:
@@ -21,17 +21,12 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 12
   exclude:
     archived: false
-    forks: false
+    forks: true
     projects:
-      - node-chat
-      - caffe-android-image-recongnition
-      - wastenomore
-      - SignNet
-      - crowdApp
-      - thesis-matlab-code
+      - personal-website
     # - repo-name
 
 social_media:
